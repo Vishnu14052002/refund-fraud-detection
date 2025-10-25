@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishnug/Desktop/desktop%201/desktop1/projects%20for%20others/refund-fraud-detection/mlruns/363921164907748442/dbbca3f7261a4f84a66a2cb52d108d7f/artifacts
+end_time: 1761405460687
+entry_point_name: ''
+experiment_id: '363921164907748442'
+lifecycle_stage: active
+run_id: dbbca3f7261a4f84a66a2cb52d108d7f
+run_name: nervous-smelt-717
+run_uuid: dbbca3f7261a4f84a66a2cb52d108d7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761405457355
+status: 3
+tags: []
+user_id: vishnug
