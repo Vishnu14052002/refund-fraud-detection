@@ -1,0 +1,8 @@
+# Start API
+uvicorn src.api.main:app --reload --port 8000
+
+# In another terminal: Run demo
+python demo/test_api.py
+
+# Or open browser
+open http://localhost:8000/docs

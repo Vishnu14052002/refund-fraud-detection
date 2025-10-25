@@ -1,0 +1,63 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'fraud-detection-api'
+    static_configs:
+      - targets: ['fraud-detection-api:8000']
+    metrics_path: '/metrics'
+```
+
+3. **Save the file** (Cmd+S)
+
+---
+
+### **Part 4: Create .dockerignore file**
+
+### ✅ **What you should do:**
+
+1. **In VS Code, create a new file:** `.dockerignore`
+
+2. **Paste this:**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Data (will be mounted as volumes)
+*.csv
+*.pkl
+
+# Logs
+*.log
+
+# MLflow
+mlruns/
+
+# Misc
+.env
+.env.local

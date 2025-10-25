@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/vishnug/Desktop/desktop%201/desktop1/projects%20for%20others/refund-fraud-detection/mlruns/363921164907748442/c970df2619e545b59f64c6858afaf05c/artifacts
+end_time: 1761406519907
+entry_point_name: ''
+experiment_id: '363921164907748442'
+lifecycle_stage: active
+run_id: c970df2619e545b59f64c6858afaf05c
+run_name: rogue-boar-136
+run_uuid: c970df2619e545b59f64c6858afaf05c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761406516079
+status: 3
+tags: []
+user_id: vishnug
